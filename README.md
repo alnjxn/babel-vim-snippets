@@ -1,7 +1,7 @@
 # babel-vim-snippets
 Next generation JavaScript and React snippets for Vim https://babeljs.io
 
-A direct port of the snippets from available from [babel-sublime-snippets](https://github.com/babel/babel-sublime-snippets)
+A direct port of the snippets available from [babel-sublime-snippets](https://github.com/babel/babel-sublime-snippets)
 
 Currently written with support for [UltiSnips](https://github.com/SirVer/ultisnips) only.
 
