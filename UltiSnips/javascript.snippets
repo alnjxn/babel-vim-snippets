@@ -1,1 +1,92 @@
-javascript.snippets
+priority -50
+
+snippet cdm "React: componentDidMount() {…}"
+componentDidMount() {
+	${0}
+},
+endsnippet
+
+snippet cdup "React: componentDidUpdate(pp, ps) {…}"
+componentDidUpdate(prevProps, prevState) {
+	${0}
+},
+endsnippet
+
+snippet cwm "React: componentWillMount() {…}"
+componentWillMount() {
+	${0}
+},
+endsnippet
+
+snippet cwr "React: componentWillReceiveProps(np) {…}"
+componentWillReceiveProps(nextProps) {
+	${0}
+},
+endsnippet
+
+snippet cwun "React: componentWillUnmount() {…}"
+componentWillUnmount() {
+	${0}
+},
+endsnippet
+
+snippet cwup "React: componentWillUpdate(np, ns) {…}"
+componentWillUpdate(nextProps, nextState) {
+	${0}
+},
+endsnippet
+
+snippet rcc "React: class component"
+import React from 'react';
+
+export class ${1:ComponentName} extends React.Component {
+	render() {
+		return ${2:(
+			${3:<div>${0}</div>}
+		);}
+	}
+}
+endsnippet
+
+snippet fdn "React: React.findDOMNode(…)"
+React.findDOMNode(${1:this})${0}
+endsnippet
+
+snippet gdp "React: getDefaultProps() {…}"
+getDefaultProps() {
+	${1:return \{${0}\};}
+},
+endsnippet
+
+snippet gis "React: getInitialState() {…}"
+getInitialState() {
+	${1:return \{${0}\};}
+},
+endsnippet
+
+snippet ren "React: render() {…}"
+render() {
+	return ${1:(
+		${2:<div>${0}</div>}
+	);}
+}
+endsnippet
+
+snippet sst "React: this.setState(…)"
+this.setState(${1:(state, props) => ${0}});
+endsnippet
+
+snippet scu "React: shouldComponentUpdate(np, ns) {…}"
+shouldComponentUpdate(nextProps, nextState) {
+	${1:return ${2:false};}${0}
+},
+endsnippet
+
+snippet props "React: this.props"
+this.props${1:.}
+endsnippet
+
+snippet state "React: this.state"
+this.state${1:.}
+endsnippet
+
