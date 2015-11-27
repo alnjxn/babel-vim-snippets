@@ -23,7 +23,7 @@ NeoBundle 'alnjxn/babel-vim-snippets'
 NeoBundle 'honza/vim-snippets'
 ```
 
-## Available snippets
+## Available Snippets
 
 ### ES6
 
