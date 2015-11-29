@@ -48,6 +48,20 @@ export class ${1:ComponentName} extends React.Component {
 }
 endsnippet
 
+snippet rccd "React: class component (default)"
+import React from 'react';
+
+class ${1:ComponentName} extends React.Component {
+	render() {
+		return ${2:(
+			${3:<div>${0}</div>}
+		);}
+	}
+}
+
+export default $1;
+endsnippet
+
 snippet fdn "React: React.findDOMNode(…)"
 React.findDOMNode(${1:this})${0}
 endsnippet
