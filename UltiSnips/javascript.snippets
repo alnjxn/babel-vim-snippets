@@ -62,6 +62,17 @@ class ${1:ComponentName} extends React.Component {
 export default $1;
 endsnippet
 
+snippet rccm "React: class component (minimal)"
+class ${1:ComponentName} extends React.Component {
+	render() {
+		return ${2:(
+			${3:<div>${0}</div>}
+		);}
+	}
+}
+
+endsnippet
+
 snippet fdn "React: React.findDOMNode(…)"
 React.findDOMNode(${1:this})${0}
 endsnippet
