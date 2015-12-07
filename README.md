@@ -32,7 +32,8 @@ NeoBundle 'honza/vim-snippets'
 | Trigger  | Content |
 | -------: | ------- |
 | `rcc→`   | class component skeleton |
-| `rcc→`   | legacy component skeleton |
+| `rccl→`  | legacy component skeleton |
+| `rec→`   | component skeleton |
 | `cdm→`   | `componentDidMount() {…}` |
 | `cdup→`  | `componentDidUpdate(prevProps, prevState) {…}` |
 | `cwm→`   | `componentWillMount() {…}` |
