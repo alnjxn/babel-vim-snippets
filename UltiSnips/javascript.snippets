@@ -115,3 +115,14 @@ snippet state "React: this.state"
 this.state${1:.}
 endsnippet
 
+snippet rcc "React: stateless component"
+import React from 'react';
+
+const ${1:ComponentName} = () => {
+		return ${2:(
+			${3:<div>${0}</div>}
+		);}
+}
+
+export default $1;
+endsnippet
